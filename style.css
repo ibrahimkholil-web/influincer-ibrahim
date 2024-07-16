@@ -1,0 +1,290 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+  }
+.inter{
+    font-family: "Inter", sans-serif;
+}
+
+/* share all section */
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.flex-display{
+    display: flex;
+}
+
+/* header section start */
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left-text{
+    color: rgb(58, 58, 58);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+.nav-items{
+   align-items: center;
+   text-align: center;
+}
+.nav-item{
+    margin-left: 30px;
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* hero section start */
+.hero{
+    align-items: center;
+    margin-top: 50px;
+    gap: 130px;
+}
+.hero-title{
+    color: rgb(58, 58, 58);
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.hero-des{
+    color: rgb(58, 58, 58);
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.hero-btn{
+    padding: 10px 24px ;
+    border: none;
+    border-radius: 40px;
+    font-size: 1rem;
+    background-color: rgb(224, 44, 109);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+.right-icon{
+    padding-top: 5px;
+}
+.hero-right img {
+    width: 100%;
+}
+.img-2{
+    margin-top: -100%;
+    padding: 30px;
+}
+/* header section ends */
+
+/* company section start */
+#uther-company{
+    margin-top: 70px;
+    max-width: 1110px;
+    margin: 0 auto;
+   
+}
+.company{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 32px 62px;
+}
+.company div{
+    gap: 20px;
+}
+/* company section ends */
+.collection-title{
+    color: rgb(58, 58, 58);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 130px;
+}
+.card{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius: 8px;
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 76px;
+}
+.card-img{
+    width: 100%;
+}
+.card-title{
+    color: rgb(24, 25, 31);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.card-price{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    
+}
+.star{
+    margin-top: 5px;
+}
+.checked{
+    color:rgb(251, 130, 0) ;
+}
+.producte-reating{
+    color: rgb(94, 99, 102);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+   
+}
+.card-des{
+    color: rgb(120, 120, 133);
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.see-page{
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+}
+
+/* products section start  */
+#products-section{
+    margin: 45px;
+  
+}
+.product{
+    align-items: center;
+    justify-content: center;
+    gap: 96px;
+}
+.product-title{
+    color: rgb(10, 8, 38);
+    font-family: "Poppins", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.product-des{
+    color: rgb(108, 108, 108);
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.product-btn{
+    padding: 10px 24px;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(224, 44, 109);
+}
+
+/* footer section start */
+footer{
+    background-color:rgb(10, 8, 38); 
+}
+
+#footer{
+    text-align: center;
+    padding: 30px 0px;
+}
+.footer-title{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.footer-des{
+    color: rgb(217, 219, 225);
+    font-family: "Manrope", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+#footer > i{
+    color: rgb(170, 170, 170);
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+@media screen and (max-width:576px) {
+    .navbar,
+    .nav-items,
+    .hero{
+        flex-direction: column;
+     }
+    .navbar{
+        text-align: center;
+    }
+    .nav-item{
+        margin-left: -20px ;
+        margin-top: 10px;
+    }
+    .hero-left{
+        text-align: center;
+    }
+    .img-2{
+        padding: 0px;
+    }
+    #uther-company{
+        margin-top: 30px;
+        max-width: 100%;
+    }
+    .company{
+        grid-template-columns: repeat(3, 3fr);
+        padding: 32px 10px;
+    }
+    .collection{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card-img{
+        max-width: 100%;
+    }
+    .product{
+        flex-direction: column-reverse;
+    }
+    .product-left img{
+        width: 100%;
+    }
+
+
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    #uther-company{
+        margin-top: 30px;
+        max-width: 100%;
+    }
+    .company{
+        text-align: center;
+        grid-template-columns: repeat(4, 2fr);
+        padding: 32px 10px;
+    }
+    .collection{
+        grid-template-columns: repeat(2, 4fr);
+    }
+    .card-img{
+        max-width: 100%;
+    }
+}
